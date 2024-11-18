@@ -19,7 +19,7 @@ opts, args = getopt.getopt(sys.argv[1:], "e:l:b:f:", ["epoch=", "learning_rate="
 
 epoch = 1000
 learning_rate = 0.02
-batch_size = 0
+batch_size = 16
 features = None
 
 for opt, arg in opts:
